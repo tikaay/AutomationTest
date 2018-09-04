@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Gist" time="93" tests="4" failures="0" errors="0">
+   <testsuite name="Test Gist" tests="4" failures="0" errors="0" time="93" timestamp="2018-09-04 18:57:32" hostname="User - Lenovo" id="Test Suites/Test Gist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\TIKA\\nitip\\Gist\\Gist\\Reports\\Test Gist\\20180904_185724"/>
+         <property name="logFiles" value="E:\\TIKA\\nitip\\Gist\\Gist\\Reports\\Test Gist\\20180904_185724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - Lenovo"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.16.2"/>
+         <property name="sessionId" value="c3e81eca53944ff07be5c5c0e55f7e05"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Create Publict Gist" classname="Test Cases/Create Publict Gist" status="PASSED">
+         <system-out><![CDATA[2018-09-04 18:57:32 - [TEST_CASE][PASSED] - Test Cases/Create Publict Gist: Test Cases/Create Publict Gist
+
+2018-09-04 18:57:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:57:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:57:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-04 18:57:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-04 18:57:42 - [TEST_STEP][PASSED] - com.shopee.web.Utility.login: com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btnGistLogin' is clicked on
+
+2018-09-04 18:57:44 - [MESSAGE][PASSED] - Text 'tikaayu2703@gmail.com' is set on object 'Object Repository/Login/txtEmail'
+
+2018-09-04 18:57:45 - [MESSAGE][PASSED] - Text 't1k4p455w0rd' is set on object 'Object Repository/Login/txtPassword'
+
+2018-09-04 18:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnSubmit' is clicked on
+
+2018-09-04 18:57:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-04 18:57:50 - [MESSAGE][PASSED] - Object 'Object Repository/lblGistHeader' is visible
+
+2018-09-04 18:57:50 - [MESSAGE][PASSED] - com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:57:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnCreateNewGist' is clicked on
+
+2018-09-04 18:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btnCreateNewGist' is clicked on
+
+2018-09-04 18:57:51 - [TEST_STEP][PASSED] - setText: Text 'Test 1' is set on object 'Object Repository/Gist New Page/txtFileName'
+
+2018-09-04 18:57:51 - [MESSAGE][PASSED] - Text 'Test 1' is set on object 'Object Repository/Gist New Page/txtFileName'
+
+2018-09-04 18:57:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-04 18:57:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-04 18:57:53 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript '_editor = document.querySelectorAll('div.CodeMirror')[0].CodeMirror;_editor.setValue('Hello world!');' successfully
+
+2018-09-04 18:57:53 - [MESSAGE][PASSED] - Execute JavaScript '_editor = document.querySelectorAll('div.CodeMirror')[0].CodeMirror;_editor.setValue('Hello world!');' successfully
+
+2018-09-04 18:57:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Gist New Page/btnPublicGist' is clicked on
+
+2018-09-04 18:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Gist New Page/btnPublicGist' is clicked on
+
+2018-09-04 18:57:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-04 18:58:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-04 18:58:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/lblResult' is visible
+
+2018-09-04 18:58:01 - [MESSAGE][PASSED] - Object 'Object Repository/lblResult' is visible
+
+2018-09-04 18:58:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 18:58:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Existing Gist" classname="Test Cases/Edit Existing Gist" status="PASSED">
+         <system-out><![CDATA[2018-09-04 18:58:02 - [TEST_CASE][PASSED] - Test Cases/Edit Existing Gist: Test Cases/Edit Existing Gist
+
+2018-09-04 18:58:02 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-04 18:58:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-04 18:58:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-04 18:58:09 - [TEST_STEP][PASSED] - com.shopee.web.Utility.login: com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/btnGistLogin' is clicked on
+
+2018-09-04 18:58:11 - [MESSAGE][PASSED] - Text 'tikaayu2703@gmail.com' is set on object 'Object Repository/Login/txtEmail'
+
+2018-09-04 18:58:12 - [MESSAGE][PASSED] - Text 't1k4p455w0rd' is set on object 'Object Repository/Login/txtPassword'
+
+2018-09-04 18:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnSubmit' is clicked on
+
+2018-09-04 18:58:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-04 18:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/lblGistHeader' is visible
+
+2018-09-04 18:58:17 - [MESSAGE][PASSED] - com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:58:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:58:19 - [TEST_STEP][PASSED] - Statement - fileNameBefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)): Text of object 'Object Repository/lblResult' is: 'Test 1'
+
+2018-09-04 18:58:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/lblResult' is: 'Test 1'
+
+2018-09-04 18:58:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnEdit' is clicked on
+
+2018-09-04 18:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btnEdit' is clicked on
+
+2018-09-04 18:58:20 - [TEST_STEP][PASSED] - setText: Text 'Edit' is set on object 'Object Repository/Gist New Page/txtFileName'
+
+2018-09-04 18:58:21 - [MESSAGE][PASSED] - Text 'Edit' is set on object 'Object Repository/Gist New Page/txtFileName'
+
+2018-09-04 18:58:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnUpdateGist' is clicked on
+
+2018-09-04 18:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/btnUpdateGist' is clicked on
+
+2018-09-04 18:58:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-04 18:58:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-04 18:58:26 - [TEST_STEP][PASSED] - Statement - fileNameCurrent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)): Text of object 'Object Repository/lblResult' is: 'Edit'
+
+2018-09-04 18:58:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/lblResult' is: 'Edit'
+
+2018-09-04 18:58:26 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'Edit' and expected object 'Test 1' are not equal
+
+2018-09-04 18:58:26 - [MESSAGE][PASSED] - Actual object 'Edit' and expected object 'Test 1' are not equal
+
+2018-09-04 18:58:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 18:58:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/See My Gist List" classname="Test Cases/See My Gist List" status="PASSED">
+         <system-out><![CDATA[2018-09-04 18:58:27 - [TEST_CASE][PASSED] - Test Cases/See My Gist List: Test Cases/See My Gist List
+
+2018-09-04 18:58:27 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-04 18:58:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-04 18:58:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-04 18:58:34 - [TEST_STEP][PASSED] - com.shopee.web.Utility.login: com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btnGistLogin' is clicked on
+
+2018-09-04 18:58:36 - [MESSAGE][PASSED] - Text 'tikaayu2703@gmail.com' is set on object 'Object Repository/Login/txtEmail'
+
+2018-09-04 18:58:37 - [MESSAGE][PASSED] - Text 't1k4p455w0rd' is set on object 'Object Repository/Login/txtPassword'
+
+2018-09-04 18:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnSubmit' is clicked on
+
+2018-09-04 18:58:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-04 18:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/lblGistHeader' is visible
+
+2018-09-04 18:58:43 - [MESSAGE][PASSED] - com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:58:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:58:45 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/lblResult' is visible
+
+2018-09-04 18:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/lblResult' is visible
+
+2018-09-04 18:58:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 18:58:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Existing Gist" classname="Test Cases/Delete Existing Gist" status="PASSED">
+         <system-out><![CDATA[2018-09-04 18:58:46 - [TEST_CASE][PASSED] - Test Cases/Delete Existing Gist: Test Cases/Delete Existing Gist
+
+2018-09-04 18:58:46 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-09-04 18:58:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/discover'
+
+2018-09-04 18:58:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-04 18:58:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-04 18:58:53 - [TEST_STEP][PASSED] - com.shopee.web.Utility.login: com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btnGistLogin' is clicked on
+
+2018-09-04 18:58:55 - [MESSAGE][PASSED] - Text 'tikaayu2703@gmail.com' is set on object 'Object Repository/Login/txtEmail'
+
+2018-09-04 18:58:55 - [MESSAGE][PASSED] - Text 't1k4p455w0rd' is set on object 'Object Repository/Login/txtPassword'
+
+2018-09-04 18:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btnSubmit' is clicked on
+
+2018-09-04 18:59:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-04 18:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/lblGistHeader' is visible
+
+2018-09-04 18:59:00 - [MESSAGE][PASSED] - com.shopee.web.Utility.login is PASSED
+
+2018-09-04 18:59:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btnMenu' is clicked on
+
+2018-09-04 18:59:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/btnYourGist' is clicked on
+
+2018-09-04 18:59:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/lblGistName' is clicked on
+
+2018-09-04 18:59:03 - [TEST_STEP][PASSED] - Statement - fileNameBefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)): Text of object 'Object Repository/lblResult' is: 'Edit'
+
+2018-09-04 18:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/lblResult' is: 'Edit'
+
+2018-09-04 18:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/btnDelete' is clicked on
+
+2018-09-04 18:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/btnDelete' is clicked on
+
+2018-09-04 18:59:03 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-09-04 18:59:03 - [MESSAGE][PASSED] - Alert accepted
+
+2018-09-04 18:59:03 - [TEST_STEP][PASSED] - verifyTextNotPresent: Text 'Edit' is not present on page
+
+2018-09-04 18:59:04 - [MESSAGE][PASSED] - Text 'Edit' is not present on page
+
+2018-09-04 18:59:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-04 18:59:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-04 18:57:32 - [TEST_SUITE][PASSED] - Test Gist: Test Cases/Delete Existing Gist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

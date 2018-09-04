@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Gist,Chrome 68.0.3440.106,,2018-09-04 18:57:32,2018-09-04 18:59:05,1m - 33.223s,PASSED
+,,,,,,
+Test Cases/Create Publict Gist,Chrome 68.0.3440.106,,2018-09-04 18:57:32,2018-09-04 18:58:02,29.643s,PASSED
+openBrowser,Chrome 68.0.3440.106,Open Browser,2018-09-04 18:57:33,2018-09-04 18:57:41,8.108s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-04 18:57:41,2018-09-04 18:57:42,1.163s,PASSED
+com.shopee.web.Utility.login,Chrome 68.0.3440.106,Login,2018-09-04 18:57:42,2018-09-04 18:57:50,7.935s,PASSED
+click,Chrome 68.0.3440.106,Create New Gist,2018-09-04 18:57:50,2018-09-04 18:57:51,0.939s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-04 18:57:51,2018-09-04 18:57:51,0.249s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-04 18:57:51,2018-09-04 18:57:53,2.004s,PASSED
+executeJavaScript,Chrome 68.0.3440.106,,2018-09-04 18:57:53,2018-09-04 18:57:53,0.080s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:57:53,2018-09-04 18:57:56,2.731s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-04 18:57:56,2018-09-04 18:58:01,5.005s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,Verify & Close Browser,2018-09-04 18:58:01,2018-09-04 18:58:01,0.078s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-04 18:58:01,2018-09-04 18:58:02,0.772s,PASSED
+,,,,,,
+Test Cases/Edit Existing Gist,Chrome 68.0.3440.106,,2018-09-04 18:58:02,2018-09-04 18:58:27,24.810s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-04 18:58:02,2018-09-04 18:58:02,0.002s,PASSED
+openBrowser,Chrome 68.0.3440.106,Open Browser,2018-09-04 18:58:02,2018-09-04 18:58:08,5.174s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-04 18:58:08,2018-09-04 18:58:09,1.152s,PASSED
+com.shopee.web.Utility.login,Chrome 68.0.3440.106,Login,2018-09-04 18:58:09,2018-09-04 18:58:17,8.361s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:17,2018-09-04 18:58:17,0.143s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:17,2018-09-04 18:58:18,0.901s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:18,2018-09-04 18:58:19,1.158s,PASSED
+Statement - fileNameBefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)),Chrome 68.0.3440.106,Verify & Close Browser,2018-09-04 18:58:19,2018-09-04 18:58:19,0.127s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:19,2018-09-04 18:58:20,1.039s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-04 18:58:20,2018-09-04 18:58:21,0.262s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:21,2018-09-04 18:58:23,2.119s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-04 18:58:23,2018-09-04 18:58:26,3.003s,PASSED
+Statement - fileNameCurrent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)),Chrome 68.0.3440.106,,2018-09-04 18:58:26,2018-09-04 18:58:26,0.082s,PASSED
+verifyNotEqual,Chrome 68.0.3440.106,,2018-09-04 18:58:26,2018-09-04 18:58:26,0.009s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-04 18:58:26,2018-09-04 18:58:27,0.900s,PASSED
+,,,,,,
+Test Cases/See My Gist List,Chrome 68.0.3440.106,,2018-09-04 18:58:27,2018-09-04 18:58:46,18.981s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-04 18:58:27,2018-09-04 18:58:27,0.027s,PASSED
+openBrowser,Chrome 68.0.3440.106,Open Browser,2018-09-04 18:58:27,2018-09-04 18:58:33,5.941s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-04 18:58:33,2018-09-04 18:58:34,1.124s,PASSED
+com.shopee.web.Utility.login,Chrome 68.0.3440.106,Login,2018-09-04 18:58:34,2018-09-04 18:58:43,8.473s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:43,2018-09-04 18:58:43,0.118s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:43,2018-09-04 18:58:44,0.979s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:58:44,2018-09-04 18:58:45,1.268s,PASSED
+verifyElementVisible,Chrome 68.0.3440.106,Verify & Close Browser,2018-09-04 18:58:45,2018-09-04 18:58:45,0.058s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-04 18:58:45,2018-09-04 18:58:46,0.749s,PASSED
+,,,,,,
+Test Cases/Delete Existing Gist,Chrome 68.0.3440.106,,2018-09-04 18:58:46,2018-09-04 18:59:05,19.028s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 68.0.3440.106,,2018-09-04 18:58:46,2018-09-04 18:58:46,0.002s,PASSED
+openBrowser,Chrome 68.0.3440.106,Open Browser,2018-09-04 18:58:46,2018-09-04 18:58:52,5.702s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-04 18:58:52,2018-09-04 18:58:53,1.126s,PASSED
+com.shopee.web.Utility.login,Chrome 68.0.3440.106,Login,2018-09-04 18:58:53,2018-09-04 18:59:00,7.555s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:59:00,2018-09-04 18:59:01,0.114s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:59:01,2018-09-04 18:59:01,0.899s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:59:01,2018-09-04 18:59:03,1.112s,PASSED
+Statement - fileNameBefore = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/lblResult)),Chrome 68.0.3440.106,Verify & Close Browser,2018-09-04 18:59:03,2018-09-04 18:59:03,0.067s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-04 18:59:03,2018-09-04 18:59:03,0.101s,PASSED
+acceptAlert,Chrome 68.0.3440.106,,2018-09-04 18:59:03,2018-09-04 18:59:03,0.039s,PASSED
+verifyTextNotPresent,Chrome 68.0.3440.106,,2018-09-04 18:59:03,2018-09-04 18:59:04,1.226s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-04 18:59:04,2018-09-04 18:59:05,0.787s,PASSED
